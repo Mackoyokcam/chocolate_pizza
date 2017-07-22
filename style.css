@@ -1,0 +1,199 @@
+body {
+  width: 901px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+header {
+  width: 901px;
+}
+
+nav {
+}
+
+nav section {
+  display: inline-block;
+  margin-bottom: 10px;
+  line-height: 15px;
+}
+
+nav h1 {
+    font-family: Allura;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav h2 {
+  font-size: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#icons {
+  float: right;
+  position: relative;
+  top: 10px;
+}
+
+#wifi {
+  margin-left: 10px;
+}
+
+main {
+  width: 901px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 35px;
+}
+
+#hero_title {
+  margin-bottom: 20px;
+  color: lightgray;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+#print {
+  display: inline;
+  float: right;
+}
+
+h4 {
+  display: inline;
+}
+
+#directions {
+  font-size: 19px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#list {
+  background-image: url("img/list-bg.png");
+  background-size: 899px 305px;
+  width: 899px;
+  height: 305px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-family: "Comic Sans", sans-serif;
+}
+
+#left>label {
+  display: block;
+  margin: 8px;
+}
+
+#right>label {
+  display: block;
+  margin: 8px;
+}
+
+#left {
+  display: inline-block;
+  margin-right: 200px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+#left input {
+  background: transparent;
+}
+
+#right {
+  display:inline-block;
+}
+
+.recipe {
+  position: absolute;
+  top: 1030px;
+  width: 440px;
+  height: 300px;
+  border: 3px solid black;
+  display: inline-block;
+}
+
+footer {
+  width: 901px;
+  margin-bottom: 100px;
+}
+
+#author {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#author img {
+  border-radius: 34px;
+  position: relative;
+  top: 10px;
+}
+
+#author h5 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#author_bio {
+  display: inline-block;
+  width: 550px;
+  margin-left: 20px;
+}
+
+#author_bio pre {
+  text-align: left;
+}
+
+#author button {
+  float: right;
+  position: relative;
+  top: 10px;
+  background-color: #da7171;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer p {
+  text-align: center;
+}
+
+#footer_words {
+  line-height: .6em;
+  color: lightgray;
+}
+
+#special {
+  height: 10px;
+  border: none;
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    white 1px,
+    gray 2px,
+    gray 1px);
+}
+
+footer hr {
+  margin-top: 40px;
+  border: none;
+  border-top: 1px solid lightgray;
+  text-align: center;
+}
+
+footer hr:after {
+  content: url("img/small-logo.png");
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
